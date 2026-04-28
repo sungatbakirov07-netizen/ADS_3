@@ -14,22 +14,20 @@ Algorithms used:
 
 ```text
 src/
-docs/
-└── screenshots/<img width="693" height="232" alt="image" src="https://github.com/user-attachments/assets/c9f6703b-f296-4c2b-ba03-b2a84be38917" />
-└── screenshots/<img width="384" height="351" alt="image" src="https://github.com/user-attachments/assets/80429cce-f94b-423a-88ce-19a6b4d2bf28" />
-└── screenshots/<img width="343" height="245" alt="image" src="https://github.com/user-attachments/assets/20497b5c-adb4-4b4e-a127-bdad0dbb08a9" />
-└── screenshots/<img width="289" height="260" alt="image" src="https://github.com/user-attachments/assets/433cb051-b3b7-4432-9361-954631bacc0c" />
-└── screenshots/<img width="506" height="485" alt="image" src="https://github.com/user-attachments/assets/0dd1a23e-adba-4b66-94c8-76e7f3f81f8c" />
-└── screenshots/<img width="314" height="281" alt="image" src="https://github.com/user-attachments/assets/d84e5246-df6e-440b-a5b2-f5ce85a58d20" />
-└── screenshots/<img width="325" height="284" alt="image" src="https://github.com/user-attachments/assets/21814108-4ee9-4a59-abc3-cb75da725467" />
-
-
 ├── Experiment.java
 ├── Main.java
 ├── Searcher.java
 └── Sorter.java
 ```
-
+##Screenshots
+docs/
+main/<img width="693" height="232" alt="image" src="https://github.com/user-attachments/assets/aab13766-e86a-44b6-8e59-3f7550ad553e" />
+insertion sort/<img width="384" height="351" alt="image" src="https://github.com/user-attachments/assets/4a234c06-ad81-44da-a1b6-acd2ab6f9a95" />
+merge sort/<img width="343" height="245" alt="image" src="https://github.com/user-attachments/assets/d115769a-f527-44ea-baf5-f730e75e4fe9" />
+merge sort/<img width="289" height="260" alt="image" src="https://github.com/user-attachments/assets/e72f2c62-fdb5-41d3-af8d-defb3d445d08" />
+searcher/<img width="506" height="485" alt="image" src="https://github.com/user-attachments/assets/43df849e-fc7c-454a-b1b0-752c3ef4825d" />
+experiment/<img width="314" height="281" alt="image" src="https://github.com/user-attachments/assets/4bdf4293-0061-4c0a-afcd-8df6a8d4ffc9" />
+experiment/<img width="325" height="284" alt="image" src="https://github.com/user-attachments/assets/006fa14f-b646-47d4-9b96-fc546179f784" />
 
 ---
 
@@ -62,7 +60,14 @@ Time Complexity:
 | Array Size | Insertion Sort | Merge Sort | Binary Search |
 |------------|----------------|------------|---------------|
 | 10 | Fast | Faster | Very Fast |
-| 100 | Slower | Fast | Very Fast |
+| 100 | Slower | Fast | Slower |
+| 1000 | Slowest | Fastest | Slowest |
+
+| Array Size | Insertion Sort (ns) | Merge Sort (ns) | Binary Search (ns) |
+|------------|----------------------|------------------|---------------------|
+| 10 | 31,000 | 15,000 | 2,000 |
+| 100 | 98,000 | 46,000 | 3,000 |
+| 1000 | 1,250,000 | 180,000 | 5,000 |
 
 ---
 
